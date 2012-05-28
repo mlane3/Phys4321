@@ -1,0 +1,79 @@
+C:\Users\shadow\Documents\Lab 2012\GitHub> cd
+C:\Users\shadow\Documents\Lab 2012\GitHub> cd .\Phys4321
+C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321 [master]> git fetch upstream
+fatal: 'upstream' does not appear to be a git repository
+fatal: The remote end hung up unexpectedly
+C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321 [master]> git remote add upst
+ream git://github.com/kalhartt/Phys4321.git
+C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321 [master]> git fetch upstream
+remote: Counting objects: 26, done.
+remote: Compressing objects: 100% (19/19), done.
+remote: Total 22 (delta 2), reused 22 (delta 2)
+Unpacking objects: 100% (22/22), done.
+From git://github.com/kalhartt/Phys4321
+ * [new branch]      master     -> upstream/master
+C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321 [master]> git merge upstream/
+master
+Deletion of directory 'FranckHertz/Mercury' failed. Should I try again? (y/n) n
+Deletion of directory 'FranckHertz/Mercury' failed. Should I try again? (y/n) n
+Removing FranckHertz/Mercury/FH-HG-611-250switch
+Removing FranckHertz/Mercury/FH-HG-611-250-smooth
+Merge made by the 'recursive' strategy.
+ FranckHertz/Mercury/FH-HG-611-250-smooth     | 5500 --------------------------
+ FranckHertz/Mercury/FH-HG-611-250switch      | 5500 --------------------------
+ FranckHertz/Mercury/maximums                 |   13 +
+ FranckHertz/Mercury/results/fiteqs           |   14 +
+ FranckHertz/Mercury/results/maximums         |   13 +
+ FranckHertz/Mercury/smooth.py                |  117 +-
+ FranckHertz/Mercury/smoothed/FH-HG-611-250   | 5244 ++++++++++++++++++++++++
+ FranckHertz/Mercury/smoothed/FH-Hg-612-050   | 5244 ++++++++++++++++++++++++
+ FranckHertz/Mercury/smoothed/FH-Hg-612-100   | 5244 ++++++++++++++++++++++++
+ FranckHertz/Mercury/smoothed/FH-Hg-612-100-2 | 5244 ++++++++++++++++++++++++
+ FranckHertz/Mercury/smoothed/FH-Hg-612-100-3 | 5244 ++++++++++++++++++++++++
+ FranckHertz/Mercury/smoothed/FH-Hg-612-100-4 | 5244 ++++++++++++++++++++++++
+ FranckHertz/Mercury/smoothed/FH-Hg-612-100-5 | 5244 ++++++++++++++++++++++++
+ FranckHertz/Mercury/smoothed/FH-Hg-612-100-6 | 5244 ++++++++++++++++++++++++
+ FranckHertz/Mercury/smoothed/FH-Hg-612-100-7 | 5244 ++++++++++++++++++++++++
+ FranckHertz/Mercury/smoothed/FH-Hg-612-200   | 5244 ++++++++++++++++++++++++
+ FranckHertz/Mercury/smoothed/FH-Hg-650-100   | 5244 ++++++++++++++++++++++++
+ FranckHertz/Mercury/smoothed/FH-Hg-700-100   | 5244 ++++++++++++++++++++++++
+ FranckHertz/Mercury/smoothed/FH-Hg-750-100   | 5244 ++++++++++++++++++++++++
+ 19 files changed, 68294 insertions(+), 11035 deletions(-)
+ delete mode 100644 FranckHertz/Mercury/FH-HG-611-250-smooth
+ delete mode 100644 FranckHertz/Mercury/FH-HG-611-250switch
+ create mode 100644 FranckHertz/Mercury/maximums
+ create mode 100644 FranckHertz/Mercury/results/fiteqs
+ create mode 100644 FranckHertz/Mercury/results/maximums
+ create mode 100644 FranckHertz/Mercury/smoothed/FH-HG-611-250
+ create mode 100644 FranckHertz/Mercury/smoothed/FH-Hg-612-050
+ create mode 100644 FranckHertz/Mercury/smoothed/FH-Hg-612-100
+ create mode 100644 FranckHertz/Mercury/smoothed/FH-Hg-612-100-2
+ create mode 100644 FranckHertz/Mercury/smoothed/FH-Hg-612-100-3
+ create mode 100644 FranckHertz/Mercury/smoothed/FH-Hg-612-100-4
+ create mode 100644 FranckHertz/Mercury/smoothed/FH-Hg-612-100-5
+ create mode 100644 FranckHertz/Mercury/smoothed/FH-Hg-612-100-6
+ create mode 100644 FranckHertz/Mercury/smoothed/FH-Hg-612-100-7
+ create mode 100644 FranckHertz/Mercury/smoothed/FH-Hg-612-200
+ create mode 100644 FranckHertz/Mercury/smoothed/FH-Hg-650-100
+ create mode 100644 FranckHertz/Mercury/smoothed/FH-Hg-700-100
+ create mode 100644 FranckHertz/Mercury/smoothed/FH-Hg-750-100
+C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321 [master]> ls
+
+
+    Directory: C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321
+
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+d----         5/28/2012  10:55 AM            FranckHertz
+d----         5/28/2012  10:51 AM            SamplePaper
+-a---         5/28/2012  10:51 AM     420034 Error_analysis.pdf
+-a---         5/28/2012  10:51 AM      52072 lab_advice.pdf
+-a---         5/28/2012  10:51 AM      54325 Plagiarism.pdf
+-a---         5/28/2012  10:51 AM         45 README.md
+-a---         5/28/2012  10:51 AM      46059 Schedule.pdf
+-a---         5/28/2012  10:51 AM     135980 Syllabus.pdf
+-a---         5/28/2012  10:51 AM      44967 Writing a Research Paper.pdf
+
+
+C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321 [master +0 ~1 -0]>
