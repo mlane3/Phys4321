@@ -65,7 +65,7 @@ for filename in filelist:
 
 	## fit the data
 	y1 = maximums[1:-1]
-	x1 = arange(1,len(y1)+1)
+	x1 = arange(2,len(y1)+2)
 	A = array([x1,ones(len(y1))])
 	w = linalg.lstsq(A.T,y1)[0]
 	fitdict[filename] = w
