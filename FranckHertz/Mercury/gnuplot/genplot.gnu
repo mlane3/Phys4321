@@ -1,6 +1,10 @@
 set terminal svg enhanced size 1000,1000 fname "Arial" fsize 32 solid lw 2 
 set output "fig.svg"
 set pointsize 0.2
+set key left top ## move legend to top-left
+set title "Current vs Accelerating Voltage"
+set xlabel "Accelerating Voltage (V)"
+set ylabel "Electron Current (arb)"
 
 ## Filenames
 ## FH-HG-611-250
@@ -17,8 +21,13 @@ set pointsize 0.2
 ## FH-Hg-700-100
 ## FH-Hg-650-100
 
+## Uncomment the following two lines to
 ## Plot data and smoothed data
-plot "../FH-HG-611-250" using 2:(-$1) with points lt 1 pt 7,\
-"../smoothed/FH-HG-611-250" with lines
 
+# plot "../FH-HG-611-250" using 2:(-$1) with points lt 1 pt 7 title "Raw Data",\
+# "../smoothed/FH-HG-611-250" with lines title "Smoothed Data"
+
+## Uncomment the following two lines to
+## Plot peaks vs n and fit line
+plot "maximums"
 unset output

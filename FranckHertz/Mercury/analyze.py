@@ -4,8 +4,10 @@ import csv
 
 ## Globals
 smoothadd = 'smoothed/'
+flipadd = 'flipped/'
 maxfile = 'results/maximums'
 fitfile = 'results/fiteqs'
+maxguess = [18.7,23.2,27.7,32.5,37.4,42.4,47.4,52.4]
 maxdict = {}
 fitdict = {}
 
@@ -33,7 +35,7 @@ for filename in filelist:
 		x.append(float(row[1]))
 		y.append(-float(row[0]))
 
-	binsize = 256
+	binsize = 64
 	x2 = []
 	y2 = []
 	for i in range(binsize//2,len(x)-binsize//2):
@@ -42,13 +44,12 @@ for filename in filelist:
 		x2.append(sum(xtemp)/len(xtemp))
 		y2.append(sum(ytemp)/len(ytemp))
 
-	writer = csv.writer(open(smoothadd+filename, 'w'))
+	writer = csv.writer(open(smoothadd+filename, 'w'), delimiter='\t')
 	for i in range(len(x2)):
 		writer.writerow([str(x2[i]),' '+str(y2[i])])
 	## }}}
 
 	## Find Maximums {{{
-	maxguess = [18.7,23.2,27.7,32.5,37.4,42.4,47.4,52.4]
 	guesswidth = 2.0
 	maximums = []
 	for i in maxguess:
@@ -70,11 +71,16 @@ for filename in filelist:
 	fitdict[filename] = w
 
 ## Write maximums to file {{{
-writer = csv.writer(open(maxfile, 'w'))
-for k,v in maxdict.items():
-	newrow = [k]
-	for num in v:
-		newrow.append(' '+str(num))
+writer = csv.writer(open(maxfile, 'w'), delimiter='\t')
+
+headerrow = ['n']
+for key in maxdict.keys(): headerrow.append(key)
+writer.writerow(headerrow)
+
+for n in range(6):
+	newrow = [n+1]
+	for key in maxdict.keys():
+		newrow.append(maxdict[key][n])
 	writer.writerow(newrow)
 ## }}}
 
