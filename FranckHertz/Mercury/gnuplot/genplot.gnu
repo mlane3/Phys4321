@@ -1,6 +1,6 @@
-set terminal svg enhanced size 1000,1000 fname "Arial" fsize 32 solid lw 2 
-set output "fig.svg"
-set pointsize 0.2
+##set terminal svg enhanced size 1000,1000 fname "Arial" fsize 32 solid lw 2 
+##set output "fig.svg"
+set pointsize 0.2 ## you can play with point size
 
 ## Filenames
 ## FH-HG-611-250
@@ -19,6 +19,6 @@ set pointsize 0.2
 
 ## Plot data and smoothed data
 plot "../FH-HG-611-250" using 2:(-$1) with points lt 1 pt 7,\
-"../smoothed/FH-HG-611-250" with lines
+"../smoothed/FH-HG-611-250" with lines  ## (-$1) means first column is inverted
 
 unset output

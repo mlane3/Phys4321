@@ -33,12 +33,12 @@ for filename in filelist:
 		x.append(float(row[1]))
 		y.append(-float(row[0]))
 
-	binsize = 256
+	binsize = 128
 	x2 = []
 	y2 = []
 	for i in range(binsize//2,len(x)-binsize//2):
 		xtemp = x[i-binsize//2:i+binsize//2]
-		ytemp = y[i-binsize//2:i+binsize//2]
+		ytemp = y[i-binsize//2:i+binsize//2]  
 		x2.append(sum(xtemp)/len(xtemp))
 		y2.append(sum(ytemp)/len(ytemp))
 
