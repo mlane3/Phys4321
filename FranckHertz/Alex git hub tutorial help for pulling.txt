@@ -3,16 +3,22 @@ C:\Users\shadow\Documents\Lab 2012\GitHub> cd .\Phys4321
 C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321 [master]> git fetch upstream
 fatal: 'upstream' does not appear to be a git repository
 fatal: The remote end hung up unexpectedly
+
+
 C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321 [master]> git remote add upstream git://github.com/kalhartt/Phys4321.git
 C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321 [master]> git fetch upstream
+
+
 remote: Counting objects: 26, done.
 remote: Compressing objects: 100% (19/19), done.
 remote: Total 22 (delta 2), reused 22 (delta 2)
 Unpacking objects: 100% (22/22), done.
 From git://github.com/kalhartt/Phys4321
  * [new branch]      master     -> upstream/master
-C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321 [master]> git merge upstream/
-master
+
+
+C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321 [master]> git merge upstream/master
+
 Deletion of directory 'FranckHertz/Mercury' failed. Should I try again? (y/n) n
 Deletion of directory 'FranckHertz/Mercury' failed. Should I try again? (y/n) n
 Removing FranckHertz/Mercury/FH-HG-611-250switch
