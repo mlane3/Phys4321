@@ -1,5 +1,6 @@
-set terminal svg enhanced size 1000,1000 fname "Arial" fsize 32 solid lw 2 
-set output "fig.svg"
+# set terminal svg enhanced size 1000,1000 fname "Arial" fsize 32 solid lw 2 
+# set output "fig.svg"
+set terminal wxt enhanced 
 set key left top ## move legend to top-left
 
 ## Filenames and their fits
@@ -21,26 +22,27 @@ set key left top ## move legend to top-left
 
 ## Uncomment the following lines to
 ## Plot data and smoothed data
-#set pointsize 0.2
+set pointsize 0.2
 set title "Current vs Accelerating Voltage"
 set xlabel "Accelerating Voltage (V)"
 set ylabel "Electron Current (arb)"
- plot "../run01" using 2:(-$1) with points lt 1 pt 7 title "Raw Data",\
- "../smoothed/run01" with lines title "Smoothed Data"
+ plot "../run04" using 2:(-$1) with points lt 1 pt 7 title "Raw Data",\
+ "../smoothed/run04" with lines title "Smoothed Data"
 
 ## Uncomment the following two lines to
 ## Plot peaks vs n and fit line
 ## copy and paste m/b from above which matches column in "maxiums"
 ## ex to plot file FH-Hg-612-100-3 would be:
 ## set pointsize 0.5
-set title "Accelerating Voltage vs Peak Number"
-set xlabel "Peak Number"
-set ylabel "Accelerating Voltage (V)"
-m = 4.77514285714 
-b = 12.8518571429
 
-f(x) = m*x+b
-plot [x=0:7] "maximums" using 1:5 with points notitle lt 1 pt 7, \
-f(x) with lines notitle
+## set title "Accelerating Voltage vs Peak Number"
+## set xlabel "Peak Number"
+## set ylabel "Accelerating Voltage (V)"
+## m = 4.77514285714 
+## b = 12.8518571429
+
+## f(x) = m*x+b
+## plot [x=0:7] "maximums" using 1:5 with points notitle lt 1 pt 7, \
+## f(x) with lines notitle
 
 unset output
