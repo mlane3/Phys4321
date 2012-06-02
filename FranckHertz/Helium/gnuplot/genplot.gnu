@@ -1,6 +1,5 @@
-# set terminal svg enhanced size 1000,1000 fname "Arial" fsize 32 solid lw 2 
-# set output "fig.svg"
-set terminal wxt enhanced 
+set terminal svg enhanced size 1000,1000 fname "Arial" fsize 32 solid lw 2 
+set output "fig.svg"
 set key left top ## move legend to top-left
 
 ## Filenames and their fits
@@ -26,8 +25,8 @@ set pointsize 0.2
 set title "Current vs Accelerating Voltage"
 set xlabel "Accelerating Voltage (V)"
 set ylabel "Electron Current (arb)"
- plot "../run04" using 2:(-$1) with points lt 1 pt 7 title "Raw Data",\
- "../smoothed/run04" with lines title "Smoothed Data"
+ plot "../run01" using 2:(-$1) with points lt 1 pt 7 title "Raw Data",\
+ "../smoothed/run01" with lines title "Smoothed Data"
 
 ## Uncomment the following two lines to
 ## Plot peaks vs n and fit line
