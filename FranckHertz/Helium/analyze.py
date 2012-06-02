@@ -7,7 +7,7 @@ smoothadd = 'smoothed/'
 flipadd = 'flipped/'
 maxfile = 'results/maximums'
 fitfile = 'results/fiteqs'
-maxguess = [14.0,14.4,14.7,15.0,16.0,16.9,17.8,18.1]
+maxguess = [18.7,23.2,27.7,32.5,37.4,42.4,47.4,52.4]
 maxdict = {}
 fitdict = {}
 
@@ -20,7 +20,7 @@ filelist = ['run01', ##{{{
 'run07',
 'run08',
 'run09',
-'run10'] ##}}}
+'run10' ] ##}}}
 
 for filename in filelist:
 

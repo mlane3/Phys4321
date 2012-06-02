@@ -36,8 +36,8 @@ set key left top ## move legend to top-left
 ## set title "Accelerating Voltage vs Peak Number"
 ## set xlabel "Peak Number"
 ## set ylabel "Accelerating Voltage (V)"
-## m = 4.77514285714 
-## b = 12.8518571429
+m = 4.77514285714 
+b = 12.8518571429
 
 f(x) = m*x+b
 plot [x=0:7] "maximums" using 1:5 with points notitle lt 1 pt 7, \
