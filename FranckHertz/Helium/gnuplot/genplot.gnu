@@ -32,7 +32,7 @@ set ylabel "Electron Current (arb)"
 ## Plot peaks vs n and fit line
 ## copy and paste m/b from above which matches column in "maxiums"
 ## ex to plot file FH-Hg-612-100-3 would be:
-set pointsize 0.5
+## set pointsize 0.5
 set title "Accelerating Voltage vs Peak Number"
 set xlabel "Peak Number"
 set ylabel "Accelerating Voltage (V)"
