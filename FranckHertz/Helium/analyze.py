@@ -7,7 +7,7 @@ smoothadd = 'smoothed/'
 flipadd = 'flipped/'
 maxfile = 'results/maximums'
 fitfile = 'results/fiteqs'
-maxguess = [18.7,23.2,27.7,32.5,37.4,42.4,47.4,52.4]
+maxguess = [14.0,14.7,15.15,16.9,17.6,18.1]
 maxdict = {}
 fitdict = {}
 
@@ -47,7 +47,7 @@ for filename in filelist:
 	## }}}
 
 	## Find Maximums {{{
-	guesswidth = 2.0
+	guesswidth = 0.1
 	maximums = []
 	for i in maxguess:
 		curmax = [0,0]
