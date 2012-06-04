@@ -47,7 +47,7 @@ for filename in filelist:
 	## }}}
 
 	## Find Maximums {{{
-	guesswidth = 0.1
+	guesswidth = 0.025
 	maximums = []
 	for i in maxguess:
 		curmax = [0,0]
