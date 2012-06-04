@@ -50,7 +50,7 @@ for filename in filelist:
 	## Guess the first min is around 12.5
 	for i in range(1250,len(y2)):
 		if len(minimums) == 0:
-			if y2[i]-y2[i-20] > .110:
+			if y2[i]-y2[i-20] > .05:
 				minimums.append(x2[i])
 		elif len(minimums) == 4:
 			break
@@ -58,6 +58,8 @@ for filename in filelist:
 			minimums.append(x2[i])
 
 	mindict[filename] = minimums
+	print(filename)
+	print(minimums)
 	## }}}
 
 writer = csv.writer(open(outfile, 'w'), delimiter='\t')
