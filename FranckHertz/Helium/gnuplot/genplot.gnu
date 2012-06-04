@@ -26,8 +26,8 @@ set pointsize 0.2
 set title "Current vs Accelerating Voltage"
 set xlabel "Accelerating Voltage (V)"
 set ylabel "Electron Current (arbitary ~100 nA)"
- plot "../run01" using 2:(-$1) with points lt 1 pt 7 title "Raw Data",\
- "../smoothed/run01" with lines title "Smoothed Data"
+ plot "../run07" using 2:(-$1) with points lt 1 pt 7 title "Raw Data",\
+ "../smoothed/run07" with lines title "Smoothed Data"
 
 ## Uncomment the following two lines to
 ## Plot peaks vs n and fit line
