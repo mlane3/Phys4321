@@ -5,15 +5,13 @@ import csv
 ## Globals
 smoothadd = 'smoothed/'
 flipadd = 'flipped/'
-maxfile = 'results/maximums'
+outfile = 'results/minimums'
 fitfile = 'results/fiteqs'
-maxguess = [14.0,14.7,15.15,16.9,17.6,18.1]
-maxdict = {}
-fitdict = {}
+mindict = {}
 
 filelist = ['run01', ##{{{
 'run02',
-'run03', 
+'run03',
 'run04',
 'run05',
 'run06',
@@ -32,7 +30,7 @@ for filename in filelist:
 		x.append(float(row[1]))
 		y.append(-float(row[0]))
 
-	binsize = 32
+	binsize = 64
 	x2 = []
 	y2 = []
 	for i in range(binsize//2,len(x)-binsize//2):
@@ -46,47 +44,25 @@ for filename in filelist:
 		writer.writerow([str(x2[i]),' '+str(y2[i])])
 	## }}}
 
-	## Find Maximums {{{
-	guesswidth = 0.025
-	maximums = []
-	for i in maxguess:
-		curmax = [0,0]
-		for j in range(len(x2)):
-			if x2[j] > i+guesswidth: break
-			if x2[j] < i-guesswidth: continue
-			if y2[j] > curmax[1]: curmax = [x2[j],y2[j]]
-		maximums.append(curmax[0])
+	## Find the minimums {{{
+	minimums = []
+
+	## Guess the first min is around 12.5
+	for i in range(1250,len(y2)):
+		if len(minimums) == 0:
+			if y2[i]-y2[i-20] > .110:
+				minimums.append(x2[i])
+		elif len(minimums) == 4:
+			break
+		elif y2[i] == min(y2[i-10:i+10]) and x2[i] > minimums[-1]+0.6:
+			minimums.append(x2[i])
+
+	mindict[filename] = minimums
 	## }}}
 
-	maxdict[filename] = maximums
-
-	## fit the data
-	y1 = maximums[1:-1]
-	x1 = arange(2,len(y1)+2)
-	A = array([x1,ones(len(y1))])
-	w = linalg.lstsq(A.T,y1)[0]
-	fitdict[filename] = w
-
-## Write maximums to file {{{
-writer = csv.writer(open(maxfile, 'w'), delimiter='\t')
-
-headerrow = ['n']
-for key in maxdict.keys(): headerrow.append(key)
-writer.writerow(headerrow)
-
-for n in range(6):
-	newrow = [n+1]
-	for key in maxdict.keys():
-		newrow.append(maxdict[key][n])
-	writer.writerow(newrow)
-## }}}
-
-## Write fits to file {{{
-writer = csv.writer(open(fitfile, 'w'))
-writer.writerow(['Filename',' m',' b'])
-for k,v in fitdict.items():
+writer = csv.writer(open(outfile, 'w'), delimiter='\t')
+for k,v in mindict.items():
 	newrow = [k]
-	for num in v:
-		newrow.append(' '+str(num))
+	for val in v:
+		newrow.append(' '+str(val))
 	writer.writerow(newrow)
-## }}}
