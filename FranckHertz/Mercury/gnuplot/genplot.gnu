@@ -32,10 +32,10 @@ set key left top ## move legend to top-left
 ## Plot peaks vs n and fit line
 ## copy and paste m/b from above which matches column in "maxiums"
 ## ex to plot file FH-Hg-612-100-3 would be:
-## set pointsize 0.5
-## set title "Accelerating Voltage vs Peak Number"
-## set xlabel "Peak Number"
-## set ylabel "Accelerating Voltage (V)"
+set pointsize .5             
+set title "Energy Level vs Peak Number"
+set xlabel "Peak Number n"
+set ylabel "Energy Level (eV)"
 m = 4.77514285714 
 b = 12.8518571429
 

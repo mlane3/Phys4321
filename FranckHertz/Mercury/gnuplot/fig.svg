@@ -86,23 +86,23 @@
 		<text><tspan> 7</tspan></text>
 	</g>
 	<path  d='M170.6,144.1 L170.6,846.4 L933.0,846.4 L933.0,144.1 L170.6,144.1 Z  h0.01'/>	<g transform="translate(47.1,495.3) rotate(270)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:middle">
-		<text><tspan>Electron Current (arbitary </tspan><tspan>1</tspan><tspan dx="-14.0em" dy="0.0pt">0</tspan><tspan>0 nA)</tspan></text>
+		<text><tspan>Energy Level (eV)</tspan></text>
 	</g>
 	<g transform="translate(551.8,978.4)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:middle">
-		<text><tspan>Accelerating Voltage (V)</tspan></text>
+		<text><tspan>Peak Number n</tspan></text>
 	</g>
 	<g transform="translate(551.8,84.1)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:middle">
-		<text><tspan>Current vs Accelerating Voltage</tspan></text>
+		<text><tspan>Energy Level vs Peak Number</tspan></text>
 	</g>
 </g>
 	<g id="gnuplot_plot_1" ><title>gnuplot_plot_1</title>
 <g style="fill:none; color:red; stroke:currentColor; stroke-width:2.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<use xlink:href='#gpPt6' transform='translate(279.5,705.0) scale(2.40)'/>
-	<use xlink:href='#gpPt6' transform='translate(388.4,626.8) scale(2.40)'/>
-	<use xlink:href='#gpPt6' transform='translate(497.3,545.6) scale(2.40)'/>
-	<use xlink:href='#gpPt6' transform='translate(606.3,462.2) scale(2.40)'/>
-	<use xlink:href='#gpPt6' transform='translate(715.2,378.2) scale(2.40)'/>
-	<use xlink:href='#gpPt6' transform='translate(824.1,293.6) scale(2.40)'/>
+	<use xlink:href='#gpPt6' transform='translate(279.5,705.0) scale(6.00)'/>
+	<use xlink:href='#gpPt6' transform='translate(388.4,626.8) scale(6.00)'/>
+	<use xlink:href='#gpPt6' transform='translate(497.3,545.6) scale(6.00)'/>
+	<use xlink:href='#gpPt6' transform='translate(606.3,462.2) scale(6.00)'/>
+	<use xlink:href='#gpPt6' transform='translate(715.2,378.2) scale(6.00)'/>
+	<use xlink:href='#gpPt6' transform='translate(824.1,293.6) scale(6.00)'/>
 </g>
 	</g>
 	<g id="gnuplot_plot_2" ><title>gnuplot_plot_2</title>
