@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"  standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg 
+ width="1000" height="1000" 
+ viewBox="0 0 1000 1000"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+
+<title>Gnuplot</title>
+<desc>Produced by GNUPLOT 4.6 patchlevel 0 </desc>
+
+<g id="gnuplot_canvas">
+
+<rect x="0" y="0" width="1000" height="1000" fill="none"/>
+<defs>
+
+	<circle id='gpDot' r='0.5' stroke-width='0.5'/>
+	<path id='gpPt0' stroke-width='0.083' stroke='currentColor' d='M-1,0 h2 M0,-1 v2'/>
+	<path id='gpPt1' stroke-width='0.083' stroke='currentColor' d='M-1,-1 L1,1 M1,-1 L-1,1'/>
+	<path id='gpPt2' stroke-width='0.083' stroke='currentColor' d='M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1'/>
+	<rect id='gpPt3' stroke-width='0.083' stroke='currentColor' x='-1' y='-1' width='2' height='2'/>
+	<rect id='gpPt4' stroke-width='0.083' stroke='currentColor' fill='currentColor' x='-1' y='-1' width='2' height='2'/>
+	<circle id='gpPt5' stroke-width='0.083' stroke='currentColor' cx='0' cy='0' r='1'/>
+	<use xlink:href='#gpPt5' id='gpPt6' fill='currentColor' stroke='none'/>
+	<path id='gpPt7' stroke-width='0.083' stroke='currentColor' d='M0,-1.33 L-1.33,0.67 L1.33,0.67 z'/>
+	<use xlink:href='#gpPt7' id='gpPt8' fill='currentColor' stroke='none'/>
+	<use xlink:href='#gpPt7' id='gpPt9' stroke='currentColor' transform='rotate(180)'/>
+	<use xlink:href='#gpPt9' id='gpPt10' fill='currentColor' stroke='none'/>
+	<use xlink:href='#gpPt3' id='gpPt11' stroke='currentColor' transform='rotate(45)'/>
+	<use xlink:href='#gpPt11' id='gpPt12' fill='currentColor' stroke='none'/>
+</defs>
+<g style="fill:none; color:white; stroke:currentColor; stroke-width:2.00; stroke-linecap:butt; stroke-linejoin:miter">
+</g>
+<g style="fill:none; color:black; stroke:currentColor; stroke-width:2.00; stroke-linecap:butt; stroke-linejoin:miter">
+	<path  d='M171.2,846.4 L195.2,846.4 M932.7,846.4 L908.7,846.4  h0.01'/>	<g transform="translate(148.8,858.4)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:end">
+		<text><tspan> 10</tspan></text>
+	</g>
+	<path  d='M171.2,758.6 L195.2,758.6 M932.7,758.6 L908.7,758.6  h0.01'/>	<g transform="translate(148.8,770.6)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:end">
+		<text><tspan> 15</tspan></text>
+	</g>
+	<path  d='M171.2,670.8 L195.2,670.8 M932.7,670.8 L908.7,670.8  h0.01'/>	<g transform="translate(148.8,682.8)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:end">
+		<text><tspan> 20</tspan></text>
+	</g>
+	<path  d='M171.2,583.0 L195.2,583.0 M932.7,583.0 L908.7,583.0  h0.01'/>	<g transform="translate(148.8,595.0)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:end">
+		<text><tspan> 25</tspan></text>
+	</g>
+	<path  d='M171.2,495.2 L195.2,495.2 M932.7,495.2 L908.7,495.2  h0.01'/>	<g transform="translate(148.8,507.2)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:end">
+		<text><tspan> 30</tspan></text>
+	</g>
+	<path  d='M171.2,407.5 L195.2,407.5 M932.7,407.5 L908.7,407.5  h0.01'/>	<g transform="translate(148.8,419.5)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:end">
+		<text><tspan> 35</tspan></text>
+	</g>
+	<path  d='M171.2,319.7 L195.2,319.7 M932.7,319.7 L908.7,319.7  h0.01'/>	<g transform="translate(148.8,331.7)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:end">
+		<text><tspan> 40</tspan></text>
+	</g>
+	<path  d='M171.2,231.9 L195.2,231.9 M932.7,231.9 L908.7,231.9  h0.01'/>	<g transform="translate(148.8,243.9)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:end">
+		<text><tspan> 45</tspan></text>
+	</g>
+	<path  d='M171.2,144.1 L195.2,144.1 M932.7,144.1 L908.7,144.1  h0.01'/>	<g transform="translate(148.8,156.1)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:end">
+		<text><tspan> 50</tspan></text>
+	</g>
+	<path  d='M171.2,846.4 L171.2,822.4 M171.2,144.1 L171.2,168.1  h0.01'/>	<g transform="translate(171.2,906.4)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:middle">
+		<text><tspan> 0</tspan></text>
+	</g>
+	<path  d='M280.0,846.4 L280.0,822.4 M280.0,144.1 L280.0,168.1  h0.01'/>	<g transform="translate(280.0,906.4)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:middle">
+		<text><tspan> 1</tspan></text>
+	</g>
+	<path  d='M388.8,846.4 L388.8,822.4 M388.8,144.1 L388.8,168.1  h0.01'/>	<g transform="translate(388.8,906.4)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:middle">
+		<text><tspan> 2</tspan></text>
+	</g>
+	<path  d='M497.6,846.4 L497.6,822.4 M497.6,144.1 L497.6,168.1  h0.01'/>	<g transform="translate(497.6,906.4)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:middle">
+		<text><tspan> 3</tspan></text>
+	</g>
+	<path  d='M606.3,846.4 L606.3,822.4 M606.3,144.1 L606.3,168.1  h0.01'/>	<g transform="translate(606.3,906.4)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:middle">
+		<text><tspan> 4</tspan></text>
+	</g>
+	<path  d='M715.1,846.4 L715.1,822.4 M715.1,144.1 L715.1,168.1  h0.01'/>	<g transform="translate(715.1,906.4)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:middle">
+		<text><tspan> 5</tspan></text>
+	</g>
+	<path  d='M823.9,846.4 L823.9,822.4 M823.9,144.1 L823.9,168.1  h0.01'/>	<g transform="translate(823.9,906.4)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:middle">
+		<text><tspan> 6</tspan></text>
+	</g>
+	<path  d='M932.7,846.4 L932.7,822.4 M932.7,144.1 L932.7,168.1  h0.01'/>	<g transform="translate(932.7,906.4)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:middle">
+		<text><tspan> 7</tspan></text>
+	</g>
+	<path  d='M171.2,144.1 L171.2,846.4 L932.7,846.4 L932.7,144.1 L171.2,144.1 Z  h0.01'/>	<g transform="translate(47.2,495.3) rotate(270)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:middle">
+		<text><tspan>Accelerating Voltage (V)</tspan></text>
+	</g>
+	<g transform="translate(551.9,978.4)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:middle">
+		<text><tspan>Peak Number</tspan></text>
+	</g>
+	<g transform="translate(551.9,84.1)" style="stroke:none; fill:black; font-family:Arial; font-size:32.00pt; text-anchor:middle">
+		<text><tspan>Accelerating Voltage vs Peak Number</tspan></text>
+	</g>
+</g>
+	<g id="gnuplot_plot_1" ><title>gnuplot_plot_1</title>
+<g style="fill:none; color:red; stroke:currentColor; stroke-width:2.00; stroke-linecap:butt; stroke-linejoin:miter">
+	<use xlink:href='#gpPt6' transform='translate(280.0,705.0) scale(6.00)'/>
+	<use xlink:href='#gpPt6' transform='translate(388.8,626.8) scale(6.00)'/>
+	<use xlink:href='#gpPt6' transform='translate(497.6,545.6) scale(6.00)'/>
+	<use xlink:href='#gpPt6' transform='translate(606.3,462.2) scale(6.00)'/>
+	<use xlink:href='#gpPt6' transform='translate(715.1,378.2) scale(6.00)'/>
+	<use xlink:href='#gpPt6' transform='translate(823.9,293.6) scale(6.00)'/>
+</g>
+	</g>
+	<g id="gnuplot_plot_2" ><title>gnuplot_plot_2</title>
+<g style="fill:none; color:green; stroke:currentColor; stroke-width:2.00; stroke-linecap:butt; stroke-linejoin:miter">
+	<path  d='M171.2,796.3 L178.9,790.4 L186.6,784.5 L194.3,778.5 L202.0,772.6 L209.7,766.7 L217.4,760.8 L225.0,754.8 
+		L232.7,748.9 L240.4,743.0 L248.1,737.0 L255.8,731.1 L263.5,725.2 L271.2,719.3 L278.9,713.3 L286.6,707.4 
+		L294.3,701.5 L302.0,695.6 L309.7,689.6 L317.3,683.7 L325.0,677.8 L332.7,671.8 L340.4,665.9 L348.1,660.0 
+		L355.8,654.1 L363.5,648.1 L371.2,642.2 L378.9,636.3 L386.6,630.3 L394.3,624.4 L402.0,618.5 L409.6,612.6 
+		L417.3,606.6 L425.0,600.7 L432.7,594.8 L440.4,588.8 L448.1,582.9 L455.8,577.0 L463.5,571.1 L471.2,565.1 
+		L478.9,559.2 L486.6,553.3 L494.3,547.4 L502.0,541.4 L509.6,535.5 L517.3,529.6 L525.0,523.6 L532.7,517.7 
+		L540.4,511.8 L548.1,505.9 L555.8,499.9 L563.5,494.0 L571.2,488.1 L578.9,482.1 L586.6,476.2 L594.3,470.3 
+		L601.9,464.4 L609.6,458.4 L617.3,452.5 L625.0,446.6 L632.7,440.6 L640.4,434.7 L648.1,428.8 L655.8,422.9 
+		L663.5,416.9 L671.2,411.0 L678.9,405.1 L686.6,399.1 L694.3,393.2 L701.9,387.3 L709.6,381.4 L717.3,375.4 
+		L725.0,369.5 L732.7,363.6 L740.4,357.7 L748.1,351.7 L755.8,345.8 L763.5,339.9 L771.2,333.9 L778.9,328.0 
+		L786.6,322.1 L794.2,316.2 L801.9,310.2 L809.6,304.3 L817.3,298.4 L825.0,292.4 L832.7,286.5 L840.4,280.6 
+		L848.1,274.7 L855.8,268.7 L863.5,262.8 L871.2,256.9 L878.9,250.9 L886.5,245.0 L894.2,239.1 L901.9,233.2 
+		L909.6,227.2 L917.3,221.3 L925.0,215.4 L932.7,209.5  h0.01'/></g>
+	</g>
+<g style="fill:none; color:black; stroke:currentColor; stroke-width:2.00; stroke-linecap:butt; stroke-linejoin:miter">
+	<path  d='M171.2,144.1 L171.2,846.4 L932.7,846.4 L932.7,144.1 L171.2,144.1 Z  h0.01'/></g>
+</g>
+</svg>
+

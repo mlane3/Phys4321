@@ -30,7 +30,7 @@ for filename in filelist:
 		x.append(float(row[1]))
 		y.append(-float(row[0]))
 
-	binsize = 64
+	binsize = 32
 	x2 = []
 	y2 = []
 	for i in range(binsize//2,len(x)-binsize//2):
