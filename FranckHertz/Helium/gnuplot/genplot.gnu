@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 ## set terminal svg enhanced size 1000,1000 fname "Arial" fsize 32 solid lw 2 
 ## set output "fig.svg"
 set terminal wxt
+=======
+set terminal png truecolor enhanced size 1600,1200 font "Arial" 48
+set output "He-smoothed.png"
+>>>>>>> upstream/master
 set key left top ## move legend to top-left
 
 ## Filenames and their fits
@@ -22,6 +27,7 @@ set key left top ## move legend to top-left
 
 ## Uncomment the following lines to
 ## Plot data and smoothed data
+<<<<<<< HEAD
 set pointsize 0.2
 set title "Current vs Accelerating Voltage"
 set xlabel "Accelerating Voltage (V)"
@@ -29,10 +35,29 @@ set ylabel "Electron Current (arbitary ~100 nA)"
  plot "../run07" using 2:(-$1) with points lt 1 pt 7 title "Raw Data",\
  "../smoothed/run07" with lines title "Smoothed Data"
 
+=======
+#set pointsize 0.5
+#set title "Current vs Accelerating Voltage"
+#set xlabel "Accelerating Voltage (V)"
+#set ylabel "Electron Current (arb)"
+#plot "run05" using 2:(-$1) with points lt 1 pt 7 title "Raw Data",\
+#  "smoothed/run05" with lines lw 2.5 title "Smoothed Data"\
+
+set pointsize 0.5
+set title "Current vs Accelerating Voltage"
+set xlabel "Accelerating Voltage (V)"
+set ylabel "Electron Current (arb)"
+set arrow from 13.805,0.3 to 13.805,1.2 nohead lt 1 lw 2
+set arrow from 12.954,0.3 to 12.954,1.2 nohead lt 1 lw 2
+set arrow from 15.335,0.3 to 15.335,1.2 nohead lt 1 lw 2
+set arrow from 16.785,0.3 to 16.785,1.2 nohead lt 1 lw 2
+plot "~/run05-2" with lines lw 2.5 notitle
+>>>>>>> upstream/master
 ## Uncomment the following two lines to
 ## Plot peaks vs n and fit line
 ## copy and paste m/b from above which matches column in "maxiums"
 ## ex to plot file FH-Hg-612-100-3 would be:
+<<<<<<< HEAD
 ## set pointsize 0.5
 ## set title "Accelerating Voltage vs Peak Number"
 ## set xlabel "Peak Number"
@@ -45,3 +70,17 @@ set ylabel "Electron Current (arbitary ~100 nA)"
 ## f(x) with lines notitle
 
 ## unset output
+=======
+#set pointsize 5
+#set title "Accelerating Voltage vs Peak Number"
+#set xlabel "Peak Number"
+#set ylabel "Accelerating Voltage (V)"
+#m = 4.77514285714 
+#b = 12.8518571429
+#
+#f(x) = m*x+b
+#plot [x=0:7] "maximums" using 1:5 with points notitle lt 1 pt 7, \
+#f(x) with lines lw 4 title "y=4.775x+12.852"
+
+unset output
+>>>>>>> upstream/master

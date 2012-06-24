@@ -8,7 +8,7 @@ fatal: The remote end hung up unexpectedly
 C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321 [master]> git remote add upstream git://github.com/kalhartt/Phys4321.git
 C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321 [master]> git fetch upstream
 
-
+%%%%git gui or git mergetool to merge conflicts
 remote: Counting objects: 26, done.
 remote: Compressing objects: 100% (19/19), done.
 remote: Total 22 (delta 2), reused 22 (delta 2)
