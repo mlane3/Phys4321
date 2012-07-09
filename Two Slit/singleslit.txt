@@ -1,0 +1,8 @@
+set terminal png truecolor enhanced size 1000,1000 font "Arial" 32
+set output "Oneslit.png"
+plot 'C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321\Two Slit\One Slit 5-25-12.dat' with errorbars lt 1 pt 7 title "Raw Data"
+set pointsize 1             
+set title "Single Slit Interference Pattern"
+set xlabel "Photon Count (10 Counts/s)"
+set ylabel "Position (\mu m)"
+unset output
