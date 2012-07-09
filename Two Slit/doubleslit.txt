@@ -1,0 +1,7 @@
+set terminal png truecolor enhanced size 1000,1000 font "Arial" 32
+set output "Twoslit.png"
+plot 'C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321\Two Slit\Two Slit 5-25-12.dat' with errorbars lt 1 pt 7 title "Raw Data"            
+set title "Double Slit Interference Pattern (Check Values?)"
+set xlabel "Photon Count (10 Counts/s)"
+set ylabel "Position (\mu m)"
+unset output
