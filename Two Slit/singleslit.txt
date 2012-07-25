@@ -8,3 +8,5 @@ set title "Single Slit Interference Pattern"
 set ylabel "Photon Count (10 Counts/s)"
 set xlabel "Position (\mu m)"
 unset output
+
+Colorimetric chemical kinetics experiment

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.12.21)  9 JUL 2012 13:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.12.21)  12 JUL 2012 12:18
 entering extended mode
 **paper2.tex
 ("C:\Users\shadow\Documents\Lab 2012\GitHub\Phys4321\Two Slit\Latex\paper2.tex"
@@ -266,16 +266,77 @@ Package pdftex.def Info: images/Oneslit.png used on input line 82.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no — in font cmr12!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.86 ...ton passes through the two slits every 10^
+                                                  -3s. Since the distance fr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.88 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
+
+Underfull \hbox (badness 1237) in paragraph at lines 85--88
+\OT1/cmr/m/n/12 mea-sure the to-tal num-ber of pho-tons which
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 85--88
+\OT1/cmr/m/n/12 man-ual of the ap-pa-ra-tus the pho-to-mul-ti-plier
+ []
+
+
+Overfull \hbox (35.13394pt too wide) in paragraph at lines 85--88
+\OT1/cmr/m/n/12 10$[]3\OML/cmm/m/it/12 s:Sincethedistancefromthebulbtothedetect
+orisL \OT1/cmr/m/n/12 =$
+ []
+
+
+Overfull \hbox (2567.44113pt too wide) in paragraph at lines 85--88
+$\OT1/cmr/m/n/12 60\OML/cmm/m/it/12 meterinlengththetimeittakesaphotontotransve
+rsethatdistanceis\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 00138457\OM
+L/cmm/m/it/12 s:Observethatthetimebetweenphotoneventsismorethanthreeordersofmag
+nitudegreaterthantimeoftravel:Consequentlythereis; onaverage; onlyonephotonmovi
+ngthroughthetwoslitsatonetime:Evenwithonlyphotonintheapparatusatatime; interfer
+encefringesareobservedinthetimeaverageddatastrongevidenceofthewavenatureoflight
+:Thereareothercuriositiesinthedata:Considerthecentralmaximumofdoubleslitdata; w
+hichwasfoundtobeandisfoundatthelocationx \OT1/cmr/m/n/12 =$
+ []
+
+
+Overfull \hbox (95.89978pt too wide) in paragraph at lines 85--88
+$\OT1/cmr/m/n/12 413\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5\OML/cmm/m/it/12 microns
+:AtthislocationtheintensityforthesingleslitdataisI \OT1/cmr/m/n/12 =$
+ []
+
+
+Overfull \hbox (4040.54402pt too wide) in paragraph at lines 85--88
+$\OT1/cmr/m/n/12 4\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 7\OML/cmm/m/it/12 Voltsyeto
+nly\OT1/cmr/m/n/12 1050\OML/cmm/m/it/12 photonspersecond:Onemightexpectthatwith
+discreeteventsonehasthatifonedoublestheamountofslitsthroughwhichlightcanpassthe
+nonewoulddoubletheamountoflightobservedatagivenpoint:However; thisiswrong:Since
+thesquarerootoftheintensityoflightisproportionaltotheelectricfieldonecanattribu
+tethistothefactthatwhenonecanhaveperfectlyconstructiveinterference; themagnitud
+eoftheresultantelectricfieldvectorwillbethesumofthemagnitudesoftheindividualvec
+tors:ButthisstrangeadditivepropertyisconsistentwithQuantumElectrodynamics; andh
+enceappliesequallywelltoanyothertypeofmatter\OT1/cmr/m/n/12 [5\OML/cmm/m/it/12 
+; \OT1/cmr/m/n/12 3]\OML/cmm/m/it/12 :Itisafundamentalpropertyofnature:Uponseei
+ngtheaboveresult; onemaybecurioushowallofthephotonsmovingthroughtheapparatusadd
+togetherwhenonecanswitchfromsingleslitinterferencetodouble$ 
+ []
+
 [4 <C:/Users/shadow/Documents/Lab 2012/GitHub/Phys4321/Two Slit/Latex/images/Tw
 oslit.png (PNG copy)>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 No file paper2.bbl.
 [5 <C:/Users/shadow/Documents/Lab 2012/GitHub/Phys4321/Two Slit/Latex/images/On
 eslit.png (PNG copy)>]
@@ -291,7 +352,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  1747 strings out of 494045
  23985 string characters out of 3149189
- 87955 words of memory out of 3000000
+ 89955 words of memory out of 3000000
  5056 multiletter control sequences out of 15000+200000
  8501 words of font info for 30 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -300,10 +361,11 @@ Here is how much of TeX's memory you used:
 ram Files/MiKTeX29/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/
 MiKTeX29/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX29/fo
 nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX29/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb>
-Output written on paper2.pdf (5 pages, 229947 bytes).
+ublic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX29/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb>
+Output written on paper2.pdf (5 pages, 246622 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
+ 49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
