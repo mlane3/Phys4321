@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Files | ownCloud  (kalhartt) </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="shortcut icon" href="/owncloud/core/img/favicon.png" /><link rel="apple-touch-icon-precomposed" href="/owncloud/core/img/favicon-touch.png" />
+					<link rel="stylesheet" href="/owncloud/core/css/styles.css" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/core/css/multiselect.css" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/core/css/jquery-ui-1.8.16.custom.css" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/core/css/jquery-tipsy.css" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/?app=files_sharing&getfile=css%2Fsharing.css" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/3rdparty/css/chosen/chosen.css" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/3rdparty/css/chosen/chosen.css" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/?app=files_texteditor&getfile=css%2Fstyle.css" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/?app=files_odfviewer&getfile=css%2Fwebodf.css" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/?app=files_odfviewer&getfile=css%2Fodfviewer.css" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/?app=files_imageviewer&getfile=css%2Fjquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/?app=files_pdfviewer&getfile=css%2Fviewer.css" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/?app=files_streamer&getfile=css%2Fstyle.css" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/?app=files&getfile=css%2Ffiles.css" type="text/css" media="screen" />
+				<script type="text/javascript">
+			var oc_webroot = '/owncloud';
+			var oc_appswebroot = '/owncloud';
+			var oc_current_user = 'kalhartt';
+		</script>
+					<script type="text/javascript" src="/owncloud/core/js/jquery-1.7.2.min.js"></script>
+					<script type="text/javascript" src="/owncloud/core/js/jquery-ui-1.8.16.custom.min.js"></script>
+					<script type="text/javascript" src="/owncloud/core/js/jquery-showpassword.js"></script>
+					<script type="text/javascript" src="/owncloud/core/js/jquery.infieldlabel.min.js"></script>
+					<script type="text/javascript" src="/owncloud/core/js/jquery-tipsy.js"></script>
+					<script type="text/javascript" src="/owncloud/core/js/oc-dialogs.js"></script>
+					<script type="text/javascript" src="/owncloud/core/js/js.js"></script>
+					<script type="text/javascript" src="/owncloud/core/js/eventsource.js"></script>
+					<script type="text/javascript" src="/owncloud/core/js/config.js"></script>
+					<script type="text/javascript" src="/owncloud/search/js/result.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_versions/js/versions.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_sharing/js/share.js"></script>
+					<script type="text/javascript" src="/owncloud/3rdparty/js/chosen/chosen.jquery.min.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/calendar/js/loader.js"></script>
+					<script type="text/javascript" src="/owncloud/3rdparty/js/chosen/chosen.jquery.min.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_texteditor/js/editor.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_texteditor/js/aceeditor/ace.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_odfviewer/js/viewer.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_odfviewer/js/webodf.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/media/js/loader.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/user_migrate/js/export.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_imageviewer/js/lightbox.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_imageviewer/js/jquery.mousewheel-3.0.4.pack.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_imageviewer/js/jquery.fancybox-1.3.4.pack.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_pdfviewer/js/viewer.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_pdfviewer/js/pdfjs/build/pdf.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_pdfviewer/js/pdfview.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_archive/js/archive.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/contacts/js/loader.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_streamer/js/viewer.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_streamer/js/jwplayer.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_streamer/js/silverlight.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files_streamer/js/wmvplayer.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files/js/jquery.iframe-transport.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files/js/jquery.fileupload.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files/js/files.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files/js/filelist.js"></script>
+					<script type="text/javascript" src="/owncloud/apps/files/js/fileactions.js"></script>
+						<script type="text/javascript">
+			$(function() {
+				requesttoken = '342966927184';
+				$(document).bind('ajaxSend', function(elm, xhr, s){
+					if(requesttoken) {
+						xhr.setRequestHeader('requesttoken', requesttoken);
+					}
+				});
+			});
+		</script>
+	</head>
+
+	<body id="body-user">
+		<header><div id="header">
+			<a href="/owncloud/index.php" title="" id="owncloud"><img class="svg" src="/owncloud/core/img/logo-wide.svg" alt="ownCloud" /></a>
+			<form class="searchbox" action="#" method="post">
+				<input id="searchbox" class="svg" type="search" name="query" value="" autocomplete="off" />
+			</form>
+			<a id="logout" href="/owncloud/index.php?logout=true"><img class="svg" alt="Log out" title="Log out" src="/owncloud/core/img/actions/logout.svg" /></a>
+		</div></header>
+
+		<nav><div id="navigation">
+			<ul id="apps" class="svg">
+									<li><a style="background-image:url(/owncloud/core/img/places/home.svg)" href="/owncloud/?app=files" title=""  class="active">Files</a>
+					</li>
+									<li><a style="background-image:url(/owncloud/core/img/places/music.svg)" href="/owncloud/?app=media" title="" >Music</a>
+					</li>
+									<li><a style="background-image:url(/owncloud/settings/img/users.svg)" href="/owncloud/?app=contacts" title="" >Contacts</a>
+					</li>
+									<li><a style="background-image:url(/owncloud/apps/calendar/img/icon.svg)" href="/owncloud/?app=calendar" title="" >Calendar</a>
+					</li>
+									<li><a style="background-image:url(/owncloud/apps/tasks/img/icon.png)" href="/owncloud/?app=tasks" title="" >Tasks</a>
+					</li>
+									<li><a style="background-image:url(/owncloud/core/img/places/picture.svg)" href="/owncloud/?app=gallery" title="" >Pictures</a>
+					</li>
+							</ul>
+
+			<ul id="settings" class="svg">
+				<img role=button tabindex=0 id="expand" class="svg" alt="Settings" src="/owncloud/core/img/actions/settings.svg" />
+				<span>Settings</span>
+				<div id="expanddiv" style="display:none;">
+									<li><a style="background-image:url(/owncloud/settings/img/personal.svg)" href="/owncloud/settings/personal.php" title="" >Personal</a></li>
+									<li><a style="background-image:url(/owncloud/settings/img/users.svg)" href="/owncloud/settings/users.php" title="" >Users</a></li>
+									<li><a style="background-image:url(/owncloud/settings/img/apps.svg)" href="/owncloud/settings/apps.php?installed" title="" >Apps</a></li>
+									<li><a style="background-image:url(/owncloud/settings/img/admin.svg)" href="/owncloud/settings/admin.php" title="" >Admin</a></li>
+									<li><a style="background-image:url(/owncloud/settings/img/help.svg)" href="/owncloud/settings/help.php" title="" >Help</a></li>
+								</div>
+			</ul>
+		</div></nav>
+
+		<div id="content">
+			<!--[if IE 8]><style>input[type="checkbox"]{padding:0;}table td{position:static !important;}</style><![endif]-->
+<div id="controls">
+					<div class="actions ">
+			<div id='new' class='button'>
+				<a>New</a>
+				<ul class="popup popupTop">
+					<li style="background-image:url('/owncloud/core/img/filetypes/text.png')" data-type='file'><p>Text file</p></li>
+					<li style="background-image:url('/owncloud/core/img/filetypes/folder.png')" data-type='folder'><p>Folder</p></li>
+					<li style="background-image:url('/owncloud/core/img/actions/public.png')" data-type='web'><p>From url</p></li>
+				</ul>
+			</div>
+			<div class="file_upload_wrapper svg">
+				<form data-upload-id='1' class="file_upload_form" action="/owncloud/?app=files&getfile=ajax%2Fupload.php" method="post" enctype="multipart/form-data" target="file_upload_target_1">
+					<input type="hidden" name="MAX_FILE_SIZE" value="5368709120" id="max_upload">
+					<input type="hidden" class="max_human_file_size" value="(max 5 GB)">
+					<input type="hidden" name="dir" value="" id="dir">
+					<button class="file_upload_filename">&nbsp;<img class='svg action' alt="Upload" src="/owncloud/core/img/actions/upload-white.svg" /></button>
+					<input class="file_upload_start" type="file" name='files[]'/>
+						<a href="#" class="file_upload_button_wrapper" onclick="return false;" title="Upload max. 5 GB"></a>
+					<iframe name="file_upload_target_1" class='file_upload_target' src=""></iframe>
+				</form>
+			</div>
+					<div id="upload">
+						<div id="uploadprogressbar"></div>
+						<input type="button" class="stop" style="display:none" value="Cancel upload" onclick="javascript:Files.cancelUploads();" />
+					</div>
+
+		</div>
+		<div id="file_action_panel"></div>
+	</div>
+<div id='notification'></div>
+
+
+<table>
+	<thead>
+		<tr>
+			<th id='headerName'>
+				<input type="checkbox" id="select_all" />				<span class='name'>Name</span>
+				<span class='selectedActions'>
+<!-- 					<a href="" class="share"><img class='svg' alt="Share" src="/owncloud/core/img/actions/share.svg" /> Share</a> -->
+											<a href="" class="download"><img class='svg' alt="Download" src="/owncloud/core/img/actions/download.svg" /> Download</a>
+									</span>
+			</th>
+			<th id="headerSize">Size</th>
+			<th id="headerDate"><span id="modified">Modified</span><span class="selectedActions"><a href="" class="delete">Delete all <img class="svg" alt="Delete" src="/owncloud/core/img/actions/delete.svg" /></a></span></th>
+		</tr>
+	</thead>
+	<tbody id="fileList" data-readonly="">
+							<tr data-file="clientsync" data-type="dir" data-mime="httpd/unix-directory" data-size='19646147921' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/folder.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&dir=/clientsync" title="">
+					<span class="nametext">
+													clientsync											</span>
+											<span class="uploadtext" currentUploads="0">
+						</span>
+										</a>
+				</td>
+				<td class="filesize" title="18.3 GB" style="color:rgb(0,0,0)">&gt; 1000</td>
+				<td class="date"><span class="modified" title="July 22, 2012, 11:38" style="color:rgb(31,31,31)">2 days ago</span></td>
+			</tr>
+					<tr data-file="manga" data-type="dir" data-mime="httpd/unix-directory" data-size='12841814908' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/folder.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&dir=/manga" title="">
+					<span class="nametext">
+													manga											</span>
+											<span class="uploadtext" currentUploads="0">
+						</span>
+										</a>
+				</td>
+				<td class="filesize" title="12 GB" style="color:rgb(0,0,0)">&gt; 1000</td>
+				<td class="date"><span class="modified" title="July 24, 2012, 12:35" style="color:rgb(3,3,3)">today</span></td>
+			</tr>
+					<tr data-file="sync" data-type="dir" data-mime="httpd/unix-directory" data-size='4096' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/folder.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&dir=/sync" title="">
+					<span class="nametext">
+													sync											</span>
+											<span class="uploadtext" currentUploads="0">
+						</span>
+										</a>
+				</td>
+				<td class="filesize" title="4 kB" style="color:rgb(199,199,199)">&lt; 0.1</td>
+				<td class="date"><span class="modified" title="July 22, 2012, 12:40" style="color:rgb(31,31,31)">2 days ago</span></td>
+			</tr>
+					<tr data-file="Data1.txt" data-type="file" data-mime="text/plain" data-size='73908' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/Data1.txt" title="">
+					<span class="nametext">
+													Data1<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="72.2 kB" style="color:rgb(199,199,199)">0.1</td>
+				<td class="date"><span class="modified" title="July 17, 2012, 16:52" style="color:rgb(98,98,98)">7 days ago</span></td>
+			</tr>
+					<tr data-file="gas%201.txt" data-type="file" data-mime="text/plain" data-size='79461' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/gas%201.txt" title="">
+					<span class="nametext">
+													gas 1<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="77.6 kB" style="color:rgb(199,199,199)">0.1</td>
+				<td class="date"><span class="modified" title="July 17, 2012, 16:52" style="color:rgb(98,98,98)">7 days ago</span></td>
+			</tr>
+					<tr data-file="gas%201.xlsx" data-type="file" data-mime="application/msexcel" data-size='116682' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/file.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/gas%201.xlsx" title="">
+					<span class="nametext">
+													gas 1<span class='extension'>.xlsx</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="113.9 kB" style="color:rgb(199,199,199)">0.1</td>
+				<td class="date"><span class="modified" title="July 17, 2012, 16:52" style="color:rgb(98,98,98)">7 days ago</span></td>
+			</tr>
+					<tr data-file="gas%202.txt" data-type="file" data-mime="text/plain" data-size='107113' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/gas%202.txt" title="">
+					<span class="nametext">
+													gas 2<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="104.6 kB" style="color:rgb(199,199,199)">0.1</td>
+				<td class="date"><span class="modified" title="July 17, 2012, 16:52" style="color:rgb(98,98,98)">7 days ago</span></td>
+			</tr>
+					<tr data-file="gas%202.xlsx" data-type="file" data-mime="application/msexcel" data-size='152588' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/file.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/gas%202.xlsx" title="">
+					<span class="nametext">
+													gas 2<span class='extension'>.xlsx</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="149 kB" style="color:rgb(199,199,199)">0.1</td>
+				<td class="date"><span class="modified" title="July 17, 2012, 16:52" style="color:rgb(98,98,98)">7 days ago</span></td>
+			</tr>
+					<tr data-file="gas%203.txt" data-type="file" data-mime="text/plain" data-size='87669' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/gas%203.txt" title="">
+					<span class="nametext">
+													gas 3<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="85.6 kB" style="color:rgb(199,199,199)">0.1</td>
+				<td class="date"><span class="modified" title="July 17, 2012, 16:52" style="color:rgb(98,98,98)">7 days ago</span></td>
+			</tr>
+					<tr data-file="gas%204.txt" data-type="file" data-mime="text/plain" data-size='162497' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/gas%204.txt" title="">
+					<span class="nametext">
+													gas 4<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="158.7 kB" style="color:rgb(199,199,199)">0.2</td>
+				<td class="date"><span class="modified" title="July 17, 2012, 16:52" style="color:rgb(98,98,98)">7 days ago</span></td>
+			</tr>
+					<tr data-file="gas%205.txt" data-type="file" data-mime="text/plain" data-size='126221' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/gas%205.txt" title="">
+					<span class="nametext">
+													gas 5<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="123.3 kB" style="color:rgb(199,199,199)">0.1</td>
+				<td class="date"><span class="modified" title="July 17, 2012, 16:52" style="color:rgb(98,98,98)">7 days ago</span></td>
+			</tr>
+					<tr data-file="gas%206.txt" data-type="file" data-mime="text/plain" data-size='144499' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/gas%206.txt" title="">
+					<span class="nametext">
+													gas 6<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="141.1 kB" style="color:rgb(199,199,199)">0.1</td>
+				<td class="date"><span class="modified" title="July 17, 2012, 16:52" style="color:rgb(98,98,98)">7 days ago</span></td>
+			</tr>
+					<tr data-file="gas%207.txt" data-type="file" data-mime="text/plain" data-size='58142' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/gas%207.txt" title="">
+					<span class="nametext">
+													gas 7<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="56.8 kB" style="color:rgb(199,199,199)">0.1</td>
+				<td class="date"><span class="modified" title="July 17, 2012, 16:52" style="color:rgb(98,98,98)">7 days ago</span></td>
+			</tr>
+					<tr data-file="gas%208-2.txt" data-type="file" data-mime="text/plain" data-size='50562' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/gas%208-2.txt" title="">
+					<span class="nametext">
+													gas 8-2<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="49.4 kB" style="color:rgb(199,199,199)">&lt; 0.1</td>
+				<td class="date"><span class="modified" title="July 17, 2012, 16:52" style="color:rgb(98,98,98)">7 days ago</span></td>
+			</tr>
+					<tr data-file="gas%208.txt" data-type="file" data-mime="text/plain" data-size='50562' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/gas%208.txt" title="">
+					<span class="nametext">
+													gas 8<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="49.4 kB" style="color:rgb(199,199,199)">&lt; 0.1</td>
+				<td class="date"><span class="modified" title="July 17, 2012, 16:52" style="color:rgb(98,98,98)">7 days ago</span></td>
+			</tr>
+					<tr data-file="gas%209.txt" data-type="file" data-mime="text/plain" data-size='61686' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/gas%209.txt" title="">
+					<span class="nametext">
+													gas 9<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="60.2 kB" style="color:rgb(199,199,199)">0.1</td>
+				<td class="date"><span class="modified" title="July 17, 2012, 16:52" style="color:rgb(98,98,98)">7 days ago</span></td>
+			</tr>
+					<tr data-file="gas%2010.txt" data-type="file" data-mime="text/plain" data-size='217691' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/gas%2010.txt" title="">
+					<span class="nametext">
+													gas 10<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="212.6 kB" style="color:rgb(199,199,199)">0.2</td>
+				<td class="date"><span class="modified" title="July 17, 2012, 16:52" style="color:rgb(98,98,98)">7 days ago</span></td>
+			</tr>
+					<tr data-file="gas%2011.txt" data-type="file" data-mime="text/plain" data-size='71761' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/gas%2011.txt" title="">
+					<span class="nametext">
+													gas 11<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="70.1 kB" style="color:rgb(199,199,199)">0.1</td>
+				<td class="date"><span class="modified" title="July 17, 2012, 16:52" style="color:rgb(98,98,98)">7 days ago</span></td>
+			</tr>
+					<tr data-file="glass1.txt" data-type="file" data-mime="text/plain" data-size='215602' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/glass1.txt" title="">
+					<span class="nametext">
+													glass1<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="210.5 kB" style="color:rgb(199,199,199)">0.2</td>
+				<td class="date"><span class="modified" title="July 19, 2012, 16:49" style="color:rgb(70,70,70)">5 days ago</span></td>
+			</tr>
+					<tr data-file="glass2.txt" data-type="file" data-mime="text/plain" data-size='905306' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/glass2.txt" title="">
+					<span class="nametext">
+													glass2<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="884.1 kB" style="color:rgb(198,198,198)">0.9</td>
+				<td class="date"><span class="modified" title="July 19, 2012, 16:50" style="color:rgb(70,70,70)">5 days ago</span></td>
+			</tr>
+					<tr data-file="solid1.txt" data-type="file" data-mime="text/plain" data-size='491558' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/solid1.txt" title="">
+					<span class="nametext">
+													solid1<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="480 kB" style="color:rgb(199,199,199)">0.5</td>
+				<td class="date"><span class="modified" title="July 19, 2012, 16:50" style="color:rgb(70,70,70)">5 days ago</span></td>
+			</tr>
+					<tr data-file="solid2.txt" data-type="file" data-mime="text/plain" data-size='167532' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/solid2.txt" title="">
+					<span class="nametext">
+													solid2<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="163.6 kB" style="color:rgb(199,199,199)">0.2</td>
+				<td class="date"><span class="modified" title="July 19, 2012, 16:50" style="color:rgb(70,70,70)">5 days ago</span></td>
+			</tr>
+					<tr data-file="solid3.txt" data-type="file" data-mime="text/plain" data-size='724278' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/text.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/solid3.txt" title="">
+					<span class="nametext">
+													solid3<span class='extension'>.txt</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="707.3 kB" style="color:rgb(198,198,198)">0.7</td>
+				<td class="date"><span class="modified" title="July 19, 2012, 16:50" style="color:rgb(70,70,70)">5 days ago</span></td>
+			</tr>
+					<tr data-file="The%20World%20God%20Only%20Knows%20Season%202%20Episode%202%20-%20Watch%20The%20World%20God%20Only%20Knows%20Season%202%20Episode%202%20Sub%20Free%20Online.flv" data-type="file" data-mime="video/x-flv" data-size='65703877' data-write='true'>
+				<td class="filename svg" style="background-image:url(/owncloud/core/img/filetypes/video.png)">
+					<input type="checkbox" />					<a class="name" href="/owncloud/?app=files&getfile=download.php?file=/The%20World%20God%20Only%20Knows%20Season%202%20Episode%202%20-%20Watch%20The%20World%20God%20Only%20Knows%20Season%202%20Episode%202%20Sub%20Free%20Online.flv" title="">
+					<span class="nametext">
+													The World God Only Knows Season 2 Episode 2 - Watch The World God Only Knows Season 2 Episode 2 Sub Free Online<span class='extension'>.flv</span>
+											</span>
+										</a>
+				</td>
+				<td class="filesize" title="62.7 MB" style="color:rgb(74,74,74)">62.7</td>
+				<td class="date"><span class="modified" title="July 14, 2012, 16:43" style="color:rgb(141,141,141)">10 days ago</span></td>
+			</tr>
+			</tbody>
+</table>
+<div id="editor"></div>
+<div id="uploadsize-message" title="Upload too large">
+	<p>
+		The files you are trying to upload exceed the maximum size for file uploads on this server.	</p>
+</div>
+<div id="scanning-message">
+	<h3>
+		Files are being scanned, please wait. <span id='scan-count'></span>
+	</h3>
+	<p>
+		Current scanning <span id='scan-current'></span>
+	</p>
+</div>
+
+<!-- config hints for javascript -->
+<input type="hidden" name="allowZipDownload" id="allowZipDownload" value="1" />
+		</div>
+	</body>
+</html>
